@@ -1,0 +1,8 @@
+# Cloudflare Workers 构建配置
+# 有这个文件，部署目录就写死成 ./dist，不再依赖控制台里的 "Build output directory" 那一格
+# （那次失败就是因为那格被填成了 dist/analog/public）。
+name = "patchjudkins"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./dist"
