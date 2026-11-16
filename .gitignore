@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.shots/
+.edge-cdp/
+.edge-profile/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
